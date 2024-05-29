@@ -4,13 +4,17 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch: # This allows manual triggering of the workflow
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Build and Push
     steps:
-      - name: git-checkout
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Install all dependencies
@@ -19,7 +23,7 @@ jobs:
       - name: Build
         run: npm run build # The build command of your project
 
-      - name: Push
+      - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
         env:
           REPO: self
