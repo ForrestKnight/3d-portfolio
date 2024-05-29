@@ -128,12 +128,12 @@
 .streaky-glow {
   position: relative;
   font-family: inherit;
-  /* color: transparent; */
-  /* background: linear-gradient(90deg, #fff, rgba(255, 200, 0, 0.679), #0ff, #fff); */
+  color: transparent;
+  background: linear-gradient(90deg, #fff, rgba(255, 200, 0, 0.679), #0ff, #fff);
   background-size: 200% 200%;
   -webkit-background-clip: text;
   background-clip: text;
-  /* animation: glow 4s infinite alternate, streaky-move 4s linear infinite; */
+  animation: glow 4s infinite alternate, streaky-move 4s linear infinite;
 }
 
 @keyframes glow {
