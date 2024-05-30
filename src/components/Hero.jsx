@@ -1,8 +1,6 @@
 import { SpacemanCanvas } from ".";
 import Position from "./Position";
 
-<p>Welcome to my portfolio. Scroll down to see more about my experience, technologies, projects, and contact information.</p>
-
 const Hero = ({ scrollContainer }) => {
   return (
     <section className="parallax">
@@ -18,7 +16,7 @@ const Hero = ({ scrollContainer }) => {
           </div>
         </div>
       </div>
-
+      <Position />
       <img className="parallax__stars" src="./parallax/1Stars.svg" alt="" />
       <img className="parallax__planets" src="./parallax/2Planets.svg" alt="" />
       <img className="parallax__mountain1" src="./parallax/3Mountain.svg" alt="" />
