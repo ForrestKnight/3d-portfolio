@@ -1,6 +1,6 @@
 # 3D Parallax Developer Portfolio Website
 
-![3D Parallax Developer Portfolio Thumbnail](https://ibb.co/pxQsDmp)
+![3D Parallax Developer Portfolio Thumbnail](https://i.ibb.co/c1wp5md/thumbnail-3d-portfolio2-2.png)
 
 ## Introduction
 This is a code repository for my 3D portfolio website showcased in this video - https://youtu.be/f_ZxgQQ74Lc.
